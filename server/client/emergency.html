@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Emergency Vehicle Priority</title>
+
+    <link rel="stylesheet" href="css/emergency.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚑 Emergency Vehicle Priority</h1>
+
+    <div class="card">
+
+        <label>Select Vehicle</label>
+
+        <select id="vehicle">
+
+            <option value="AMBULANCE">Ambulance</option>
+
+            <option value="FIRE">Fire Brigade</option>
+
+            <option value="POLICE">Police</option>
+
+        </select>
+
+        <label>Source Junction</label>
+
+        <select id="source"></select>
+
+        <label>Destination Junction</label>
+
+        <select id="destination"></select>
+
+        <button onclick="activateEmergency()">
+
+            Activate Green Corridor
+
+        </button>
+
+    </div>
+
+    <div class="result">
+
+    <h2>Emergency Response</h2>
+
+    <div class="result-card">
+
+        <div class="result-item">
+
+            <span>🚑 Vehicle</span>
+
+            <h3 id="vehicleName">--</h3>
+
+        </div>
+
+        <div class="result-item">
+
+            <span>🛣 Route</span>
+
+            <h3 id="routePath">--</h3>
+
+        </div>
+
+        <div class="result-item">
+
+            <span>📏 Distance</span>
+
+            <h3 id="distance">--</h3>
+
+        </div>
+
+        <div class="result-item">
+
+            <span>🚦 Corridor Status</span>
+
+            <h3 id="statusBadge" class="active">
+
+                Waiting...
+
+            </h3>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<script src="js/emergency.js"></script>
+
+</body>
+
+</html>

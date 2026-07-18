@@ -1,0 +1,306 @@
+/* ===============================
+   Google Font
+================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a,
+        #2563eb
+    );
+
+}
+
+/* ===============================
+Animated Background
+================================= */
+
+.background{
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    top:0;
+    left:0;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+.background span{
+
+    position:absolute;
+
+    display:block;
+
+    width:250px;
+    height:250px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    animation:move 18s linear infinite;
+
+}
+
+.background span:nth-child(1){
+
+    left:5%;
+    top:10%;
+
+}
+
+.background span:nth-child(2){
+
+    right:8%;
+    top:20%;
+
+    width:350px;
+    height:350px;
+
+}
+
+.background span:nth-child(3){
+
+    left:20%;
+    bottom:-100px;
+
+}
+
+.background span:nth-child(4){
+
+    right:15%;
+    bottom:-120px;
+
+    width:300px;
+    height:300px;
+
+}
+
+@keyframes move{
+
+    0%{
+
+        transform:
+        translateY(0)
+        rotate(0deg);
+
+    }
+
+    100%{
+
+        transform:
+        translateY(-1200px)
+        rotate(360deg);
+
+    }
+
+}
+
+/* ===============================
+Login Container
+================================= */
+
+.login-container{
+
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* ===============================
+Glass Card
+================================= */
+
+.login-card{
+
+    width:420px;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    box-shadow:
+
+        0 25px 50px rgba(0,0,0,.35);
+
+    text-align:center;
+
+}
+
+/* ===============================
+Logo
+================================= */
+
+.logo{
+
+    width:90px;
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:36px;
+
+    color:white;
+
+    background:linear-gradient(
+        45deg,
+        #38bdf8,
+        #2563eb
+    );
+
+    margin-bottom:25px;
+
+}
+
+.login-card h1{
+
+    color:white;
+
+    font-size:34px;
+
+}
+
+.login-card p{
+
+    color:#dbeafe;
+
+    margin-top:8px;
+    margin-bottom:35px;
+
+}
+
+/* ===============================
+Input
+================================= */
+
+.input-box{
+
+    display:flex;
+    align-items:center;
+
+    background:white;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+    padding:0 18px;
+
+}
+
+.input-box i{
+
+    color:#2563eb;
+
+}
+
+.input-box input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    font-size:15px;
+
+}
+
+/* ===============================
+Button
+================================= */
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:18px;
+    font-weight:600;
+
+    color:white;
+
+    background:linear-gradient(
+        45deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+
+    0 10px 25px
+    rgba(37,99,235,.4);
+
+}
+
+/* ===============================
+Footer
+================================= */
+
+.footer{
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    opacity:.8;
+
+}

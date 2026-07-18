@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IntelliRoute | Route Finder</title>
+
+    <link rel="stylesheet" href="css/route.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-route"></i>
+
+            <h2>IntelliRoute</h2>
+
+        </div>
+
+        <ul>
+
+            <li onclick="location.href='dashboard.html'">
+
+                <i class="fa-solid fa-house"></i>
+
+                Dashboard
+
+            </li>
+
+            <li class="active">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                Route Finder
+
+            </li>
+
+            <li onclick="location.href='analytics.html'">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                Analytics
+
+            </li>
+
+            <li onclick="location.href='emergency.html'">
+
+                <i class="fa-solid fa-truck-medical"></i>
+
+                Emergency
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="main">
+
+        <div class="header">
+
+            <h1>Smart Route Finder</h1>
+
+            <p>Find the shortest and smartest route using A* Algorithm</p>
+
+        </div>
+
+        <!-- Route Search -->
+
+        <div class="route-card">
+
+            <div class="input-group">
+
+                <label>Source Junction</label>
+
+                <select id="source"></select>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Destination Junction</label>
+
+                <select id="destination"></select>
+
+            </div>
+
+            <button id="findRouteBtn" onclick="findRoute()">
+
+                <i class="fa-solid fa-route"></i>
+
+                Find Best Route
+
+            </button>
+
+        </div>
+
+        <!-- Result -->
+
+        <div class="result-card">
+
+            <h2>
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+                Route Result
+
+            </h2>
+
+            <div class="result-item">
+
+                <span>Algorithm</span>
+
+                <strong id="algo">--</strong>
+
+            </div>
+
+            <div class="result-item">
+
+                <span>Total Distance</span>
+
+                <strong id="distance">--</strong>
+
+            </div>
+
+            <div class="result-item">
+
+                <span>Estimated Time</span>
+
+                <strong id="eta">--</strong>
+
+            </div>
+
+            <div class="result-item">
+
+                <span>Shortest Path</span>
+
+                <strong id="path">--</strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/route.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Traffic Heat Map</title>
+
+    <link rel="stylesheet" href="css/heatmap.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>
+
+            <i class="fa-solid fa-fire"></i>
+
+            Live Traffic Heat Map
+
+        </h1>
+
+        <a href="dashboard.html">
+
+            ⬅ Dashboard
+
+        </a>
+
+    </header>
+
+    <div class="legend">
+
+        <span class="green"></span> Low Traffic
+
+        <span class="yellow"></span> Medium Traffic
+
+        <span class="red"></span> High Traffic
+
+        <span class="gray"></span> Closed Road
+
+    </div>
+
+    <div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="js/heatmap.js"></script>
+
+</body>
+
+</html>

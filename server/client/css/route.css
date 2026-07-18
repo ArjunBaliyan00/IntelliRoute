@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display:flex;
+    background:#eef3ff;
+}
+
+/* ========================= */
+/* Sidebar */
+/* ========================= */
+
+.sidebar{
+    width:260px;
+    min-height:100vh;
+    background:linear-gradient(180deg,#14213d,#23408e);
+    color:white;
+    padding:30px 20px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:45px;
+}
+
+.logo i{
+    font-size:35px;
+    color:#4db8ff;
+}
+
+.logo h2{
+    font-size:34px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:16px 18px;
+    margin-bottom:12px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+    font-size:18px;
+}
+
+.sidebar ul li i{
+    width:30px;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li.active{
+    background:#3366e8;
+}
+
+/* ========================= */
+/* Main */
+/* ========================= */
+
+.main{
+    flex:1;
+    padding:40px;
+}
+
+.header{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.header h1{
+    font-size:42px;
+    color:#1f2a44;
+}
+
+.header p{
+    color:#666;
+    margin-top:10px;
+}
+
+/* ========================= */
+/* Route Card */
+/* ========================= */
+
+.route-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+
+    margin-bottom:30px;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.input-group label{
+    margin-bottom:10px;
+    font-weight:600;
+    color:#333;
+}
+
+.input-group select{
+
+    padding:15px;
+
+    border:2px solid #d8d8d8;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    outline:none;
+}
+
+button{
+
+    grid-column:1/3;
+
+    padding:16px;
+
+    border:none;
+
+    background:#3366e8;
+
+    color:white;
+
+    font-size:18px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#23408e;
+
+    transform:translateY(-2px);
+
+}
+
+/* ========================= */
+/* Result Card */
+/* ========================= */
+
+.result-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.result-card h2{
+
+    margin-bottom:25px;
+
+    color:#1f2a44;
+
+}
+
+.result-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #ececec;
+
+    font-size:18px;
+
+}
+
+.result-item strong{
+
+    color:#3366e8;
+
+}
+
+/* ========================= */
+/* Responsive */
+/* ========================= */
+
+@media(max-width:900px){
+
+    body{
+
+        flex-direction:column;
+
+    }
+
+    .sidebar{
+
+        width:100%;
+
+        min-height:auto;
+
+    }
+
+    .route-card{
+
+        grid-template-columns:1fr;
+
+    }
+
+    button{
+
+        grid-column:auto;
+
+    }
+
+}

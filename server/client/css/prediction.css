@@ -1,0 +1,214 @@
+/* ==========================================
+   IntelliRoute AI Prediction
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#eef3ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+.container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+.card{
+
+    width:700px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+
+}
+
+.card h1{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+
+}
+
+.card p{
+
+    text-align:center;
+
+    color:#64748b;
+
+    margin-bottom:30px;
+
+}
+
+.form-group{
+
+    margin-bottom:25px;
+
+}
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+    color:#1e293b;
+
+}
+
+select{
+
+    width:100%;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:1px solid #cbd5e1;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.result{
+
+    margin-top:35px;
+
+}
+
+.result h2{
+
+    margin-bottom:20px;
+
+    color:#1e293b;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+table tr{
+
+    border-bottom:1px solid #e2e8f0;
+
+}
+
+table td{
+
+    padding:15px;
+
+    font-size:16px;
+
+}
+
+table td:first-child{
+
+    font-weight:600;
+
+    color:#334155;
+
+    width:40%;
+
+}
+
+.back{
+
+    margin-top:30px;
+
+    text-align:center;
+
+}
+
+.back a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+}
+
+.back a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:768px){
+
+    .card{
+
+        width:100%;
+
+    }
+
+}

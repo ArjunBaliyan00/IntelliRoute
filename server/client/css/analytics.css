@@ -1,0 +1,115 @@
+/* ==========================================
+   IntelliRoute Analytics
+========================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:#eef3ff;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    padding:40px;
+
+}
+
+.analytics-container{
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+.analytics-container h1{
+
+    font-size:42px;
+
+    color:#1f2a44;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================================
+   Charts
+========================================== */
+
+.charts{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.chart-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    height:470px;
+
+}
+
+.chart-card h3{
+
+    text-align:center;
+
+    font-size:34px;
+
+    margin-bottom:15px;
+
+    color:#1f2a44;
+
+}
+
+.chart-card canvas{
+
+    width:100% !important;
+
+    height:360px !important;
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:900px){
+
+.charts{
+
+grid-template-columns:1fr;
+
+}
+
+.chart-card{
+
+height:430px;
+
+}
+
+.chart-card canvas{
+
+height:300px !important;
+
+}
+
+}

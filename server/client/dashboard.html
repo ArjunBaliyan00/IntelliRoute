@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IntelliRoute Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+
+            <h2>
+                <i class="fa-solid fa-route"></i>
+                IntelliRoute
+            </h2>
+
+        </div>
+
+        <ul class="menu">
+
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="route.html">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    Route Finder
+                </a>
+            </li>
+
+            <li>
+                <a href="analytics.html">
+                    <i class="fa-solid fa-chart-line"></i>
+                    Analytics
+                </a>
+            </li>
+
+                        <li>
+                <a href="map.html">
+                    <i class="fa-solid fa-map"></i>
+                    Live Map
+                </a>
+            </li>
+
+                        <li>
+                <a href="prediction.html">
+                    <i class="fa-solid fa-brain"></i>
+                    AI Prediction
+                </a>
+            </li>
+
+                        <li>
+                <a href="heatmap.html">
+                    <i class="fa-solid fa-fire"></i>
+                    Heat Map
+                </a>
+            </li>
+
+            <li>
+                <a href="emergency.html">
+                    <i class="fa-solid fa-truck-medical"></i>
+                    Emergency
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-traffic-light"></i>
+                    Traffic Signals
+                </a>
+            </li>
+
+                        <li>
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- Main -->
+
+    <div class="main-content">
+
+        <!-- Topbar -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Dashboard</h1>
+
+                <p>Smart Traffic Management System</p>
+
+            </div>
+
+            <div class="status">
+
+                <span class="online">
+
+                    🟢 System Online
+
+                </span>
+
+                <span id="liveTime"></span>
+
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <h3>Total Roads</h3>
+
+                <h2 id="totalRoads">0</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Open Roads</h3>
+
+                <h2 id="openRoads">0</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Closed Roads</h3>
+
+                <h2 id="closedRoads">0</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>High Traffic</h3>
+
+                <h2 id="highTraffic">0</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Low Traffic</h3>
+
+                <h2 id="lowTraffic">0</h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Emergency</h3>
+
+                <h2>ACTIVE</h2>
+
+            </div>
+
+        </section>
+
+        <!-- Charts -->
+
+        <section class="charts">
+
+            <div class="chart-box">
+
+                <h2>Traffic Distribution</h2>
+
+                <canvas id="trafficChart"></canvas>
+
+            </div>
+
+            <div class="chart-box">
+
+                <h2>Road Status</h2>
+
+                <canvas id="roadChart"></canvas>
+
+            </div>
+
+        </section>
+
+        <!-- Junction Signals -->
+
+        <section class="signals-section">
+
+            <h2>Live Junction Signals</h2>
+
+            <div id="signals"></div>
+
+        </section>
+
+        <!-- Table -->
+
+        <section class="table-section">
+
+            <h2>Road Details</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Road Name</th>
+                        <th>Traffic</th>
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="roadTable">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

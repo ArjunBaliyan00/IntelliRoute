@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>AI Traffic Prediction</title>
+
+    <link rel="stylesheet"
+        href="css/prediction.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>
+
+            <i class="fa-solid fa-brain"></i>
+
+            AI Traffic Prediction
+
+        </h1>
+
+        <p>
+
+            Predict future traffic using IntelliRoute AI Engine
+
+        </p>
+
+        <!-- ========================= -->
+        <!-- Road Selection -->
+        <!-- ========================= -->
+
+        <div class="form-group">
+
+            <label>
+
+                Select Road
+
+            </label>
+
+            <select id="road">
+
+                <option value="1">
+                    LPU Smart Road
+                </option>
+
+                <option value="2">
+                    University Main Road
+                </option>
+
+                <option value="3">
+                    Central Avenue
+                </option>
+
+                <option value="4">
+                    City Bypass Road
+                </option>
+
+                <option value="5">
+                    Green Valley Road
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Predict Button -->
+        <!-- ========================= -->
+
+        <button onclick="predictTraffic()">
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            Predict Traffic
+
+        </button>
+
+        <!-- ========================= -->
+        <!-- Prediction Result -->
+        <!-- ========================= -->
+
+        <div class="result">
+
+            <h2>
+
+                Prediction Result
+
+            </h2>
+
+            <table>
+
+                <tr>
+
+                    <td>Road</td>
+
+                    <td id="roadName">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Current Traffic</td>
+
+                    <td id="currentTraffic">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Prediction</td>
+
+                    <td id="prediction">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Confidence</td>
+
+                    <td id="confidence">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Next Update</td>
+
+                    <td id="after">-</td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Back Button -->
+        <!-- ========================= -->
+
+        <div class="back">
+
+            <a href="dashboard.html">
+
+                ⬅ Back to Dashboard
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/prediction.js"></script>
+
+</body>
+
+</html>
