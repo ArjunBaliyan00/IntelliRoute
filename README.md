@@ -124,7 +124,7 @@ IntelliRoute
 │
 ├── README.md
 └── LICENSE
-
+```
 ## 📊 Project Modules
 
 IntelliRoute consists of multiple intelligent modules designed to improve urban traffic management and route optimization.
@@ -189,8 +189,7 @@ The project can be extended with several advanced capabilities:
 **Connect with me**
 
 - 💻 GitHub: **github.com/ArjunBaliyan00**
-- 🔗 LinkedIn: **linkedin.com/in/your-profile**
-- 📧 Email: **your-email@example.com**
+- 🔗 LinkedIn: **https://www.linkedin.com/in/arjun-baliyan-018240333/**
 
 ## 📄 License
 
