@@ -256,7 +256,9 @@ The project can be extended with several advanced capabilities:
 
 - 💻 GitHub: **https://www.github.com/ArjunBaliyan00**
 - 🔗 LinkedIn: **https://www.linkedin.com/in/arjun-baliyan-018240333/**
-
+  # Deployment link
+-  frontend link: **https://dynamic-liger-383cb9.netlify.app/**
+-  Backend link:**https://intelliroute-backend-fdva.onrender.com**
 
 ## ⭐ Support
 
