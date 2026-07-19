@@ -259,6 +259,7 @@ The project can be extended with several advanced capabilities:
   # Deployment link
 -  frontend link: **https://dynamic-liger-383cb9.netlify.app/**
 -  Backend link:**https://intelliroute-backend-fdva.onrender.com**
+-  credentials: username: admin, password: admin123
 
 ## ⭐ Support
 
