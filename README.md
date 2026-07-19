@@ -109,9 +109,9 @@ The project demonstrates how graph-based algorithms can be integrated into a mod
 # 📂 Project Structure
 
 ```text
-=======
+
 📂 Project Structure
->>>>>>> 632d791 (Frontend ready for production)
+
 IntelliRoute
 │
 ├── client
@@ -147,8 +147,6 @@ IntelliRoute
 
 ```
 ## 📊 Project Modules
-=======
->>>>>>> 632d791 (Frontend ready for production)
 
 IntelliRoute consists of multiple intelligent modules designed to improve urban traffic management and route optimization.
 
