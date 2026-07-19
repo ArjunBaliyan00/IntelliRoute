@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 <p align="center">
   <h1 align="center">🚦 IntelliRoute</h1>
 
@@ -37,48 +37,12 @@ A Full Stack Web Application that leverages Graph Algorithms to optimize urban t
 
 Node.js Express MySQL HTML5 CSS3 JavaScript
 
-📖 Overview
+ 📖 Overview
 IntelliRoute is a Smart City Traffic Management and Route Optimization System developed as a B.Tech Computer Science Engineering project.
 
 The system applies Data Structures and Algorithms (DSA) to solve real-world urban traffic problems by calculating the shortest routes, analyzing traffic density, predicting congestion, and supporting emergency vehicle navigation.
 
 The project demonstrates how graph-based algorithms can be integrated into a modern full-stack web application to build intelligent transportation systems.
-
-✨ Key Features
-🚦 Interactive Traffic Dashboard
-🗺 Intelligent Route Finder
-📍 Live Map Integration
-📊 Traffic Analytics Dashboard
-🔥 Traffic Heat Map
-🤖 AI-Based Traffic Prediction
-🚑 Emergency Green Corridor
-🚧 Road Management System
-📈 Live Traffic Statistics
-⚙ Settings Management
-🔗 RESTful APIs
-🗄 MySQL Database Integration
-🧠 Algorithms Implemented
-
-Algorithm	Purpose
-Dijkstra Algorithm	= Calculates the shortest route between locations
-A* Search Algorithm	= Optimized pathfinding for faster navigation
-Breadth First Search (BFS) = Graph traversal and connectivity analysis
-Depth First Search (DFS) =	Network exploration and graph traversal
-
-💻 Technology Stack
-Frontend
-HTML5
-CSS3
-JavaScript
-Chart.js
-Leaflet.js
-Font Awesome
-
-Backend
-Node.js
-Express.js
-REST APIs
->>>>>>> 632d791 (Frontend ready for production)
 
 ---
 
@@ -180,7 +144,7 @@ IntelliRoute
 │
 ├── README.md
 └── LICENSE
-<<<<<<< HEAD
+
 ```
 ## 📊 Project Modules
 =======
@@ -255,31 +219,19 @@ Generates optimized routes for emergency vehicles to minimize response time.
 ⚙️ Settings
 Allows users to customize application preferences and configurations.
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 The primary goals of IntelliRoute are:
 
-🚦 Optimize urban traffic flow through intelligent route planning.
-🛣️ Reduce travel time by identifying the shortest and safest routes.
-🚑 Improve emergency response with priority route generation.
-📊 Visualize traffic conditions using interactive dashboards and heat maps.
-🧠 Demonstrate practical implementation of Graph Algorithms.
-💡 Showcase real-world applications of Data Structures and Algorithms (DSA).
+-🚦 Optimize urban traffic flow through intelligent route planning.
+- 🛣️ Reduce travel time by identifying the shortest and safest routes.
+- 🚑 Improve emergency response with priority route generation.
+- 📊 Visualize traffic conditions using interactive dashboards and heat maps.
+- 🧠 Demonstrate practical implementation of Graph Algorithms.
+- 💡 Showcase real-world applications of Data Structures and Algorithms (DSA).
 
 
-🚀 Future Enhancements
+# 🚀 Future Enhancements
 The project can be extended with several advanced capabilities:
-
-🌦️ Real-Time Weather API Integration
-📡 IoT-Based Smart Traffic Sensors
-📱 Android & iOS Mobile Application
-🤖 Machine Learning Traffic Prediction
-🚦 Smart Traffic Signal Automation
-📍 Live GPS Vehicle Tracking
-🛣️ Road Network Planning using Kruskal's and Prim's Algorithms
-🔐 JWT Authentication & User Management
-☁️ Cloud Deployment (AWS / Azure)
-🐳 Docker Support
->>>>>>> 632d791 (Frontend ready for production)
 
 - 🌦️ Real-Time Weather API Integration
 - 📡 IoT-Based Smart Traffic Sensors
@@ -292,7 +244,7 @@ The project can be extended with several advanced capabilities:
 - ☁️ Cloud Deployment (AWS / Azure)
 - 🐳 Docker Support
 
-<<<<<<< HEAD
+
 ## 👨‍💻 Author
 
 ### Arjun Baliyan
@@ -302,14 +254,9 @@ The project can be extended with several advanced capabilities:
 
 **Connect with me**
 
-- 💻 GitHub: **github.com/ArjunBaliyan00**
+- 💻 GitHub: **https://www.github.com/ArjunBaliyan00**
 - 🔗 LinkedIn: **https://www.linkedin.com/in/arjun-baliyan-018240333/**
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute this project in accordance with the terms of the MIT License.
 
 ## ⭐ Support
 
@@ -322,28 +269,3 @@ If you found this project useful, please consider supporting it by:
 - 🤝 Contributing through Pull Requests
 
 Your support is greatly appreciated!
-=======
-👨‍💻 Author
-Arjun Baliyan
-🎓 Bachelor of Technology (Computer Science & Engineering)
-🏫 Lovely Professional University
-
-Connect with me
-
-💻 GitHub: github.com/ArjunBaliyan00
-🔗 LinkedIn: https://www.linkedin.com/in/arjun-baliyan-018240333/
-📄 License
-This project is licensed under the MIT License.
-
-You are free to use, modify, and distribute this project in accordance with the terms of the MIT License.
-
-⭐ Support
-If you found this project useful, please consider supporting it by:
-
-⭐ Starring this repository
-🍴 Forking the project
-🐛 Reporting bugs or issues
-💡 Suggesting new features
-🤝 Contributing through Pull Requests
-Your support is greatly appreciated!
->>>>>>> 632d791 (Frontend ready for production)
