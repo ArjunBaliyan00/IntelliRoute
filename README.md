@@ -261,6 +261,12 @@ The project can be extended with several advanced capabilities:
 -  Backend link:**https://intelliroute-backend-fdva.onrender.com**
 -  credentials: username: admin, password: admin123
 
+  ## 📄 Project Report
+
+The complete project report is available here in main:
+
+Smart City Traffic Management & Navigation System
+
 ## ⭐ Support
 
 If you found this project useful, please consider supporting it by:
